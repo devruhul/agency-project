@@ -1,3 +1,4 @@
+/* Reset CSS Style */
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
+/* Header section style */
 .brand-logo {
   width: 120px;
   height: 45px;
@@ -31,6 +33,7 @@ html {
 input[type="search"] {
   border-radius: 30px;
 }
+/* Hero section style*/
 .hero-section {
   margin-bottom: 188px;
 }
@@ -38,6 +41,7 @@ input[type="search"] {
   padding-left: 125px;
   margin-top: 250px;
 }
+/* Service section style*/
 .services-section {
   margin-bottom: 188px;
 }
@@ -47,33 +51,39 @@ input[type="search"] {
 .card img {
   width: 80px;
 }
+/* About section style */
 .about img {
   width: 100%;
 }
 span {
   color: #2370c8;
 }
+/* Pages section style */
 .page-section {
   background-color: #f2f9ff;
 }
 .card {
   background-color: #e5f3fe;
 }
+/* Work section style */
 .work img {
   width: 100%;
 }
+/* Team section style */
 .team-section {
   background-color: #f2f9ff;
 }
 .team img {
   width: 100%;
 }
+/* Pricing section style */
 .standard-price {
   background-color: #2370c8;
 }
 .fa-toggle-on {
   color: #2370c8;
 }
+/* Client section style */
 .clients {
   background-color: #3782d7;
 }
@@ -84,6 +94,7 @@ span {
 .clients .card {
   background-color: #3782d7;
 }
+/* Blog section */
 #button-addon2 {
   background-color: #2370c8;
 }
@@ -93,6 +104,7 @@ span {
 .blog-card {
   background-color: #3782d7;
 }
+/* Footer section */
 .footer-container {
   background-color: lightblue;
   display: grid;
