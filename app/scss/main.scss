@@ -1,5 +1,5 @@
 @forward "partials/base";
-@use "partials/variables" as index;
+@use "partials/variables" as agency;
 // Common styles
 span {
   color: #2370c8;
@@ -25,7 +25,7 @@ span {
   margin-right: 200px;
 }
 .nav-link {
-  color: index.$primary_text_color;
+  color: agency.$primary_text_color;
   font-size: 20px;
 }
 input[type="search"] {
@@ -63,14 +63,14 @@ input[type="search"] {
 }
 /* Work section style */
 .work img {
-  width: index.$priamry_width;
+  width: agency.$priamry_width;
 }
 /* Team section style */
 .team-section {
   background-color: #f2f9ff;
 }
 .team img {
-  width: index.$priamry_width;
+  width: agency.$priamry_width;
 }
 /* Pricing section style */
 .standard-price {
