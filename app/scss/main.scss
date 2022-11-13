@@ -1,17 +1,23 @@
 @forward "partials/base";
+@use "partials/variables" as *;
+// Common styles
+span {
+  color: #2370c8;
+}
 
 /* Header section style */
 .brand-logo {
   width: 120px;
   height: 45px;
 }
-.nav-bg {
-  background-color: #92c0e0;
+// flex items
+%flex_element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-flex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  @extend %flex_element;
 }
 .container img {
   width: 100%;
@@ -20,7 +26,7 @@
   margin-right: 200px;
 }
 .nav-link {
-  color: white;
+  color: $primary_text_color;
   font-size: 20px;
 }
 input[type="search"] {
@@ -48,9 +54,7 @@ input[type="search"] {
 .about img {
   width: 100%;
 }
-span {
-  color: #2370c8;
-}
+
 /* Pages section style */
 .page-section {
   background-color: #f2f9ff;
@@ -60,14 +64,14 @@ span {
 }
 /* Work section style */
 .work img {
-  width: 100%;
+  width: $priamry_width;
 }
 /* Team section style */
 .team-section {
   background-color: #f2f9ff;
 }
 .team img {
-  width: 100%;
+  width: $priamry_width;
 }
 /* Pricing section style */
 .standard-price {
